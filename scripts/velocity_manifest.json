@@ -1,0 +1,51 @@
+{
+    "defaultData":{
+        "verdictMethod":"EXIT_CODE",
+        "timeout":0,
+        "commandSequence":[
+            "%file%"
+        ],
+        "executionMessages":{
+            "OK":"^\\s*\\d{4}-\\d{2}-\\d{2}\\s+\\d{2}:\\d{2}:\\d{2},\\d{3}.*verified.*",
+            "Info":"^\\s*\\d{4}-\\d{2}-\\d{2}\\s+\\d{2}:\\d{2}:\\d{2},\\d{3}\\s+(DEBUG|INFO).*",
+            "Warning":"^\\s*\\d{4}-\\d{2}-\\d{2}\\s+\\d{2}:\\d{2}:\\d{2},\\d{3}\\s+WARNING.*",
+            "Error":"^\\s*\\d{4}-\\d{2}-\\d{2}\\s+\\d{2}:\\d{2}:\\d{2},\\d{3}\\s+(ERROR|CRITICAL).*"
+        },
+        "artifactLink":"^\\s*ArtifactLink:\\s*\\(\\s*Description:\\s*\"(.*)\",\\s*Link:\\s*\"(.*)\"\\s*\\)"
+    },
+    "fileSets":[
+        {
+            "fileNameMatch":".*sleep\\.py$",
+            "language":"python",
+            "testCaseName":"Sleep a bit",
+            "description":"Sleep with input duration in seconds.",
+            "commandSequence":[
+                "%file% %param_duration%"
+            ],
+            "parameters":[
+                {
+                    "name":"duration",
+                    "type":"INTEGER",
+                    "value":"5",
+                    "description":"Number of seconds to sleep"
+                }
+            ]
+        },
+        {
+            "fileNameMatch":".*(\\.py)$",
+            "language":"python"
+        },
+        {
+            "fileNameMatch":".*(\\.sh)$",
+            "language":"bash"
+        },
+        {
+            "fileNameMatch":".*(\\.bat)$",
+            "language":"batch"
+        },
+        {
+            "fileNameMatch":".*(\\.ps1)$",
+            "language":"powershell"
+        }
+    ]
+}

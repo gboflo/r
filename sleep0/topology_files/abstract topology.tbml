@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbml xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd" xmlns="http://www.teslaalliance.org/trs/tbml/1.0" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema">
+  <header>
+    <name>Abstract Topology</name>
+    <description></description>
+    <property name="rmGuid">5cdc3f7f-a618-4093-98a4-4e43dea3c565</property>
+  </header>
+  <body>
+    <resources>
+      <resource guid="597449d6-1048-47ad-b566-d23d35058d3f" id="i70d2bb34-e61e-4310-b839-0dd713791a4c" shared="true" type="device" skipvalidation="undefined">
+        <boundary height="100" width="100" x="255.9999999999999" y="202"/>
+        <property isimportant="false" valuelabel="undefined" name="name">Router Exclusive</property>
+        <property isimportant="false" valuelabel="undefined" name="description"/>
+        <property isimportant="false" valuelabel="undefined" name="iconURI">ilo://api/0/resource/icon?id=597449d6-1048-47ad-b566-d23d35058d3f</property>
+        <property isimportant="false" valuelabel="undefined" name="ilo_iconId">791d6efa-771f-4a1f-a342-525456be72c3</property>
+        <property isimportant="false" valuelabel="undefined" name="ilo_shape">RECTANGLE</property>
+        <extensions type="com.fnfr.rm.condition" XMLSchema:namespace="com.fnfr.rm.condition">template[Router Exclusive]</extensions>
+      </resource>
+      <resource guid="f270e974-d692-4053-ae42-93fdd598c397" id="i76cd03ce-dcea-408c-b7db-6089744feb82" shared="true" type="device" skipvalidation="undefined">
+        <boundary height="100" width="100" x="532.9999999999999" y="510"/>
+        <property isimportant="false" valuelabel="undefined" name="name">Server Exclusive</property>
+        <property isimportant="false" valuelabel="undefined" name="description"/>
+        <property isimportant="false" valuelabel="undefined" name="iconURI">ilo://api/0/resource/icon?id=f270e974-d692-4053-ae42-93fdd598c397</property>
+        <property isimportant="false" valuelabel="undefined" name="ilo_iconId">31c4ca17-f812-459b-9491-ba8a4561c00c</property>
+        <property isimportant="false" valuelabel="undefined" name="ilo_shape">RECTANGLE</property>
+        <extensions type="com.fnfr.rm.condition" XMLSchema:namespace="com.fnfr.rm.condition">template[Server Exclusive]</extensions>
+      </resource>
+      <resource guid="cec94a30-3bd1-43fc-ba2f-f30449389300" id="i8ff70a70-fc47-4fa9-a0ad-93209e64ed2e" shared="true" type="device" skipvalidation="undefined">
+        <boundary height="100" width="100" x="594.9999999999998" y="192"/>
+        <property isimportant="false" valuelabel="undefined" name="name">Cisco Switch Exclusive</property>
+        <property isimportant="false" valuelabel="undefined" name="description"/>
+        <property isimportant="false" valuelabel="undefined" name="iconURI">ilo://api/0/resource/icon?id=cec94a30-3bd1-43fc-ba2f-f30449389300</property>
+        <property isimportant="false" valuelabel="undefined" name="ilo_iconId">ee78cfb4-dd00-4ed2-9eca-341ebb3814d5</property>
+        <property isimportant="false" valuelabel="undefined" name="ilo_shape">RECTANGLE</property>
+        <extensions type="com.fnfr.rm.condition" XMLSchema:namespace="com.fnfr.rm.condition">template[Cisco Switch Exclusive]</extensions>
+      </resource>
+    </resources>
+    <connectivity/>
+  </body>
+  <illustration>
+    <layer/>
+  </illustration>
+</tbml>

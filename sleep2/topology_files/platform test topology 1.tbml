@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbml xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd" xmlns="http://www.teslaalliance.org/trs/tbml/1.0">
+  <header>
+    <name>Platform Test Topology 1</name>
+    <description>A topology used by Velocity platform integration tests</description>
+    <property name="rmGuid">1789438f-7f75-4d2a-8d96-fe76f9a21d28</property>
+    <property name="dateModified">2015-06-03T18:45:21.648-07:00</property>
+    <property name="creationTool" vendor="com.fnfr">com.fnfr.itest.topology.tbml.diagram</property>
+    <property name="creationToolVersion" vendor="com.fnfr">5.1.0.77511</property>
+    <property name="TestProp" vendor="com.fnfr">TestPropValue</property>
+  </header>
+  <body>
+    <resources>
+      <resource guid="856db5a9-ab0b-4d12-80c7-7e80e579e401" id="ic01ea57f-3239-462f-8dea-cb16f22d4c2b" shared="true" type="device" skipvalidation="undefined">
+        <boundary height="100" width="100" x="90" y="78"/>
+        <property isimportant="false" valuelabel="undefined" name="name">Platform Test Server</property>
+        <property isimportant="false" valuelabel="undefined" name="description">A server used by velocity platform integration test.</property>
+        <property isimportant="false" valuelabel="undefined" name="iconURI">ilo://api/0/resource/icon?id=856db5a9-ab0b-4d12-80c7-7e80e579e401</property>
+        <property isimportant="false" valuelabel="undefined" name="ilo_shape">RECTANGLE</property>
+        <property name="ilo_iconId">201afc82-62ec-4242-85ec-c522e811f4e0</property>
+        <propertyCollection name="System Identification">
+<property id="c8d1b724-27a1-4cd1-b701-ef246b29b6f8" name="ipAddress" type="text"/>
+<property id="05c50793-abde-4469-81d8-1250e9188c26" name="Hostname" type="text">VelocityServer</property>
+<property id="071054c0-93c0-4363-a419-eed70a3d429f" name="Make" type="text"/>
+<property id="c0809f97-689e-40d4-ba94-ec685bb3d58c" name="Model" type="text"/>
+<property id="e893ea34-7689-4066-a41b-0eb40a97cb1d" name="Serial Number" type="text"/>
+</propertyCollection>
+        <propertyCollection name="Location Information">
+<property id="534df3c2-fe08-4b05-bfd6-5a87caad3a00" name="Facility" type="text"/>
+<property id="b9172b4d-81f5-47c9-9e2c-d35890590cf3" name="Room" type="text"/>
+<property id="1d308654-75ff-4765-bf1e-f29199ba1783" name="Floor Position" type="text"/>
+</propertyCollection>
+        <extensions type="com.fnfr.itest.session" xs:namespace="com.fnfr.itest.session">
+          <session baseSessionProfile="" name="ssh" provider="com.fnfr">
+            <sessionProfile version="5.1.0.77511">
+              <baseApplication>com.fnfr.svt.applications.ssh</baseApplication>
+              <sessionProperties type="com.fnfr.svt.applications.ssh.documents.SSHProperties">
+                <ipAddress inherit="false">itp-tctest.spirenteng.com</ipAddress>
+                <user inherit="false">root</user>
+                <auth_type defaultValue="" inherit="false"/>
+                <password inherit="false">iRyLc4KQj80=</password>
+                <use_credentials_file defaultValue="" inherit="false"/>
+              </sessionProperties>
+            </sessionProfile>
+          </session>
+        </extensions>
+      </resource>
+      <resource guid="960f9389-3c07-4e8b-993a-3c45020c2c87" id="i0c163400-22bd-4a18-aeed-e88a66296f4f" shared="true" type="device" skipvalidation="undefined">
+        <boundary height="100" width="100" x="284" y="139"/>
+        <property isimportant="false" valuelabel="undefined" name="name">Platform Test Switch</property>
+        <property isimportant="false" valuelabel="undefined" name="description">A layer 2 switch used by Velocity platform integration tests</property>
+        <property isimportant="false" valuelabel="undefined" name="iconURI">ilo://api/0/resource/icon?id=960f9389-3c07-4e8b-993a-3c45020c2c87</property>
+        <property isimportant="false" valuelabel="undefined" name="ilo_shape">RECTANGLE</property>
+        <property name="ilo_iconId">31cec797-2548-4256-8b19-3a1d64148f42</property>
+        <propertyCollection name="System Identification">
+<property id="76f065e8-0521-405a-a864-c7ed7aff295f" name="ipAddress" type="text"/>
+<property id="20e06d61-1686-4b29-bf00-ed36d28a63cc" name="Hostname" type="text"/>
+<property id="5e0890f3-cdb5-4689-ace6-6ec5a99cc9e1" name="Make" type="text"/>
+<property id="d6020200-730e-4466-9bf6-95cf5b100c2d" name="Model" type="text"/>
+<property id="6b1f843b-0ff9-467d-92f3-adb9dcdf78e2" name="Serial Number" type="text"/>
+<property id="2724de12-2ca1-496f-8a40-62b8612f9002" name="SSH Port" type="integer">22</property>
+</propertyCollection>
+        <propertyCollection name="Location Information">
+<property id="d5dc0948-e42e-4f59-899a-b189ef756c7c" name="Facility" type="text"/>
+<property id="ca6072aa-83e0-43ce-894f-d34a4eec5523" name="Room" type="text"/>
+<property id="2e621ccd-1aca-45f4-8d34-09c9beebbb47" name="Floor Position" type="text"/>
+</propertyCollection>
+        <propertyCollection name="Credentials">
+<property id="f2f2c49c-78c3-47cc-89de-390f2b5b32d2" name="username" type="text"/>
+<property id="427f34af-a7d6-4ce9-bd05-79d42b60f196" name="password" type="password"/>
+</propertyCollection>
+      </resource>
+    </resources>
+    <connectivity/>
+  </body>
+  <illustration>
+    <layer/>
+  </illustration>
+</tbml>

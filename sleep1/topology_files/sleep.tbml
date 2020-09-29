@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbml xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd" xmlns="http://www.teslaalliance.org/trs/tbml/1.0">
+  <header>
+    <name></name>
+    <description></description>
+    <property name="author">emiller</property>
+    <property name="dateCreated">2015-05-16T13:30:04.209-07:00</property>
+    <property name="dateModified">2015-05-16T13:30:48.847-07:00</property>
+    <property name="creationTool" vendor="com.fnfr">com.fnfr.itest.topology.tbml.diagram</property>
+    <property name="creationToolVersion" vendor="com.fnfr">5.0.0.77059</property>
+  </header>
+  <body>
+    <resources>
+      <resource guid="6cf0d068-db76-4478-8406-1beca37f48dd" id="resource_0" type="network">
+        <boundary height="100" width="100" x="339" y="125"/>
+        <property name="iconURI">platform:/plugin/com.fnfr.itest.topology.tbml.edit/icons/full/topology/cloud_32.gif</property>
+        <property name="name">network1</property>
+        <resource guid="609021be-478b-4bbf-9108-f1d5cdd2cdce" id="resource_0_0" type="port">
+          <property name="name">port1</property>
+        </resource>
+        <resource guid="f8894bb4-44a4-4761-9a22-7d3f730d863b" id="resource_0_1" type="port">
+          <property name="name">port2</property>
+        </resource>
+      </resource>
+      <resource guid="c8287d81-fd22-4851-9c7a-5774cebebc22" id="resource_1" type="pc">
+        <boundary height="100" width="100" x="185" y="338"/>
+        <property name="iconURI">platform:/plugin/com.fnfr.itest.topology.tbml.edit/icons/full/topology/pc_32.gif</property>
+        <property name="name">pc1</property>
+        <resource guid="bcfb1534-573c-4a69-acfc-1e1964b96725" id="resource_1_0" type="port">
+          <property name="name">port1</property>
+        </resource>
+      </resource>
+      <resource guid="eeccdbd0-0174-43b8-b264-513adf8a51fe" id="resource_2" type="server">
+        <boundary height="100" width="100" x="574" y="353"/>
+        <property name="iconURI">platform:/plugin/com.fnfr.itest.topology.tbml.edit/icons/full/topology/server_32.gif</property>
+        <property name="name">server1</property>
+        <resource guid="3434d7ed-0a1e-408d-8606-eb07f20a13f2" id="resource_2_0" type="port">
+          <property name="name">port1</property>
+        </resource>
+      </resource>
+    </resources>
+    <connectivity>
+      <link id="link_0">
+        <property name="type">ethernet</property>
+        <property name="linkRoutingType">curve</property>
+        <property name="name">ethernet1</property>
+        <endpoint id="resource_1_0"/>
+        <endpoint id="resource_0_0"/>
+      </link>
+      <link id="link_1">
+        <property name="type">ethernet</property>
+        <property name="linkRoutingType">curve</property>
+        <property name="name">ethernet2</property>
+        <endpoint id="resource_2_0"/>
+        <endpoint id="resource_0_1"/>
+      </link>
+    </connectivity>
+  </body>
+  <illustration>
+    <layer/>
+  </illustration>
+</tbml>

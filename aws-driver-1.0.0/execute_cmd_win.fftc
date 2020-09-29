@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<testCase version="8.3.0.202005050121">
+    <general>
+        <isProcedureLibrary>true</isProcedureLibrary>
+        <language>Python</language>
+    </general>
+    <procedures>
+        <item name="main" isPublic="true">
+            <steps>
+                <item guid="508affbe-b532-4691-81e7-ceafd94da460" action="if" useFieldsInCommand="false">
+                    <command>
+                        <body>cmd_0 == &quot;open&quot;:</body>
+                    </command>
+                    <nestedSteps>
+                        <item guid="0ecbf320-aa9e-49ce-901f-6c23ec78318e" action="open" session="s1">
+                            <command>
+                                <body>application:com.fnfr.svt.applications.cmd</body>
+                            </command>
+                            <applicationProperties type="com.fnfr.svt.documents.OpenStepPropertyGroup">
+                                <stepProperties type="com.fnfr.svt.editors.terminal.documents.StepDefaultProperties"/>
+                                <sessionProperties type="com.fnfr.svt.applications.cmd.CmdSessionProperties">
+                                    <terminalProperties>
+                                        <prompts merge="true">
+                                            <item name="normal1" MatchMethod="REGULAR_EXPRESSION">
+                                                <Content>AWS Access Key ID.*:</Content>
+                                            </item>
+                                            <item name="normal2" MatchMethod="REGULAR_EXPRESSION">
+                                                <Content>AWS Secret Access Key.*:</Content>
+                                            </item>
+                                            <item name="normal3" MatchMethod="REGULAR_EXPRESSION">
+                                                <Content>Default region name.*:</Content>
+                                            </item>
+                                            <item name="normal4" MatchMethod="REGULAR_EXPRESSION">
+                                                <Content>Default output format.*:</Content>
+                                            </item>
+                                        </prompts>
+                                    </terminalProperties>
+                                </sessionProperties>
+                                <sessionClass type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                                <sessionVersion type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                            </applicationProperties>
+                        </item>
+                        <item guid="771c46a6-eb27-429a-94b5-074df41210d0" action="return">
+                            <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                        </item>
+                    </nestedSteps>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="5d8e4a03-c626-4a4e-8a33-ad98b2a64f87" action="if" useFieldsInCommand="false">
+                    <command>
+                        <body>cmd_0 == &quot;close&quot;:</body>
+                    </command>
+                    <nestedSteps>
+                        <item guid="b99907eb-7c10-49b2-9867-800763a30282" action="close" session="s1" useFieldsInCommand="false">
+                            <applicationProperties type="com.fnfr.svt.editors.terminal.documents.StepDefaultProperties"/>
+                        </item>
+                        <item guid="9ddd6683-6aaa-4cb4-aa5c-7657985e6535" action="return">
+                            <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                        </item>
+                    </nestedSteps>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="2481a7de-d0a5-4f63-9434-106a6e8bdcfa" action="command" session="s1">
+                    <command>
+                        <body>[cmd_0]</body>
+                    </command>
+                    <postProcessing>
+                        <storeResponseAt>response</storeResponseAt>
+                        <storeResponseText>true</storeResponseText>
+                    </postProcessing>
+                    <applicationProperties type="com.fnfr.svt.editors.terminal.documents.StepDefaultProperties"/>
+                </item>
+                <item guid="589c5e42-aefb-4ae9-bd9a-e23846c765af" action="if" useFieldsInCommand="false">
+                    <command>
+                        <body>cmd_1 != &quot;&quot;:</body>
+                    </command>
+                    <nestedSteps>
+                        <item guid="371993b2-1f22-49c5-bd0a-8dceddb16977" action="command" session="s1">
+                            <command>
+                                <body>[cmd_1]</body>
+                            </command>
+                            <postProcessing>
+                                <storeResponseAt>response</storeResponseAt>
+                                <storeResponseText>true</storeResponseText>
+                            </postProcessing>
+                            <applicationProperties type="com.fnfr.svt.editors.terminal.documents.StepDefaultProperties"/>
+                        </item>
+                        <item guid="b583425a-c160-4a6f-9493-888517ec6900" action="if" useFieldsInCommand="false">
+                            <command>
+                                <body>cmd_2 != &quot;&quot;:</body>
+                            </command>
+                            <nestedSteps>
+                                <item guid="2bf1c8ef-a9f3-4871-b10d-6c3738d2ee2f" action="command" session="s1">
+                                    <command>
+                                        <body>[cmd_2]</body>
+                                    </command>
+                                    <postProcessing>
+                                        <storeResponseAt>response</storeResponseAt>
+                                        <storeResponseText>true</storeResponseText>
+                                    </postProcessing>
+                                    <applicationProperties type="com.fnfr.svt.editors.terminal.documents.StepDefaultProperties"/>
+                                </item>
+                                <item guid="14ee12c0-b5b1-45ad-99f2-21a9862ce163" action="if" useFieldsInCommand="false">
+                                    <command>
+                                        <body>cmd_3 != &quot;&quot;:</body>
+                                    </command>
+                                    <nestedSteps>
+                                        <item guid="6ce8a985-93a9-470d-ad15-22975905e393" action="command" session="s1">
+                                            <command>
+                                                <body>[cmd_3]</body>
+                                            </command>
+                                            <postProcessing>
+                                                <storeResponseAt>response</storeResponseAt>
+                                                <storeResponseText>true</storeResponseText>
+                                            </postProcessing>
+                                            <applicationProperties type="com.fnfr.svt.editors.terminal.documents.StepDefaultProperties"/>
+                                        </item>
+                                        <item guid="baad253e-a1e2-40d6-8dc3-1234cc377d77" action="if" useFieldsInCommand="false">
+                                            <command>
+                                                <body>cmd_4 != &quot;&quot;:</body>
+                                            </command>
+                                            <nestedSteps>
+                                                <item guid="b38b7066-319e-415d-a27b-903f9d98fa86" action="command" session="s1">
+                                                    <command>
+                                                        <body>[cmd_4]</body>
+                                                    </command>
+                                                    <postProcessing>
+                                                        <storeResponseAt>response</storeResponseAt>
+                                                        <storeResponseText>true</storeResponseText>
+                                                    </postProcessing>
+                                                    <applicationProperties type="com.fnfr.svt.editors.terminal.documents.StepDefaultProperties"/>
+                                                </item>
+                                            </nestedSteps>
+                                            <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                                        </item>
+                                    </nestedSteps>
+                                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                                </item>
+                            </nestedSteps>
+                            <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                        </item>
+                    </nestedSteps>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="856e1897-0167-4e56-ab06-42e2437eb3e2" action="return">
+                    <command>
+                        <body>[response]</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+            </steps>
+            <arguments>
+                <item name="cmd_0">
+                    <isMandatory>true</isMandatory>
+                </item>
+                <item name="cmd_1"/>
+                <item name="cmd_2"/>
+                <item name="cmd_3"/>
+                <item name="cmd_4"/>
+            </arguments>
+            <response>{}</response>
+        </item>
+    </procedures>
+</testCase>

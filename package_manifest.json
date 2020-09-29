@@ -1,0 +1,11 @@
+{
+  "name":"example-0",
+  "version":"1.0.0",
+  "description": "Example package as a starting point for development.",
+  "icon":"example-0.svg",
+  "dependencies":{
+    "landslide_version":"19.2",
+    "velocity_version":"8.4.0"
+  },
+  "license": "VELOCITY_5GC_AAP"
+}

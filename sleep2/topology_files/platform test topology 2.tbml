@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbml xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd" xmlns="http://www.teslaalliance.org/trs/tbml/1.0">
+  <header>
+    <name>Platform Test Topology 2</name>
+    <description>A second topology used for Velocity platform integration tests.</description>
+    <property name="rmGuid">2a548db2-78a4-41df-8005-03219945d12d</property>
+  </header>
+  <body>
+    <resources>
+      <resource guid="a9177fcb-af75-4e24-969e-5f50a6802728" id="i0dbcf718-8460-42d9-b625-7a6cd9db76de" shared="true" type="device" skipvalidation="undefined">
+        <boundary height="100" width="100" x="10.333333333333172" y="52.833333333333385"/>
+        <property isimportant="false" valuelabel="undefined" name="name">Platform Test Router</property>
+        <property isimportant="false" valuelabel="undefined" name="description">A router used by Velocity platform integration tests</property>
+        <property isimportant="false" valuelabel="undefined" name="iconURI">ilo://api/0/resource/icon?id=a9177fcb-af75-4e24-969e-5f50a6802728</property>
+        <property isimportant="false" valuelabel="undefined" name="ilo_shape">RECTANGLE</property>
+        <property name="ilo_iconId">f6cdcd53-c344-49ea-ac28-a55fe13c9a38</property>
+        <propertyCollection name="System Identification">
+<property id="a20aa22c-9fd9-433e-90cc-7ed5fb5397f8" name="ipAddress" type="text"/>
+<property id="788cb6e9-f481-41cc-b8d9-ae6107177eb2" name="Hostname" type="text">VelocityRouter</property>
+<property id="9eabe934-7ef9-4a43-a873-3cc954d7f10e" name="Make" type="text"/>
+<property id="2ec95b55-b070-4375-8576-1a7a5753f744" name="Model" type="text"/>
+<property id="c6cef401-c925-47ff-85ab-586f5b782ef9" name="Serial Number" type="text"/>
+</propertyCollection>
+        <propertyCollection name="Location Information">
+<property id="65a5a3af-8c90-44ce-a6f2-a747c9c06566" name="Facility" type="text"/>
+<property id="e928d200-ca51-48d0-bd7c-efb37aa02b33" name="Room" type="text"/>
+<property id="c49b2030-49ad-4151-a066-1cf2de4f734e" name="Floor Position" type="text"/>
+</propertyCollection>
+      </resource>
+      <resource guid="856db5a9-ab0b-4d12-80c7-7e80e579e401" id="i1f4e36a3-4e17-4e24-b9ac-5516544a7cef" shared="true" type="device" skipvalidation="undefined">
+        <boundary height="100" width="100" x="268.9999999999998" y="129.50000000000006"/>
+        <property isimportant="false" valuelabel="undefined" name="name">Platform Test Server</property>
+        <property isimportant="false" valuelabel="undefined" name="description">A server used by velocity platform integration test.</property>
+        <property isimportant="false" valuelabel="undefined" name="iconURI">ilo://api/0/resource/icon?id=856db5a9-ab0b-4d12-80c7-7e80e579e401</property>
+        <property isimportant="false" valuelabel="undefined" name="ilo_shape">RECTANGLE</property>
+        <property name="ilo_iconId">201afc82-62ec-4242-85ec-c522e811f4e0</property>
+        <propertyCollection name="System Identification">
+<property id="c8d1b724-27a1-4cd1-b701-ef246b29b6f8" name="ipAddress" type="text"/>
+<property id="05c50793-abde-4469-81d8-1250e9188c26" name="Hostname" type="text">VelocityServer</property>
+<property id="071054c0-93c0-4363-a419-eed70a3d429f" name="Make" type="text"/>
+<property id="c0809f97-689e-40d4-ba94-ec685bb3d58c" name="Model" type="text"/>
+<property id="e893ea34-7689-4066-a41b-0eb40a97cb1d" name="Serial Number" type="text"/>
+</propertyCollection>
+        <propertyCollection name="Location Information">
+<property id="534df3c2-fe08-4b05-bfd6-5a87caad3a00" name="Facility" type="text"/>
+<property id="b9172b4d-81f5-47c9-9e2c-d35890590cf3" name="Room" type="text"/>
+<property id="1d308654-75ff-4765-bf1e-f29199ba1783" name="Floor Position" type="text"/>
+</propertyCollection>
+      </resource>
+    </resources>
+    <connectivity/>
+  </body>
+  <illustration>
+    <layer/>
+  </illustration>
+</tbml>
