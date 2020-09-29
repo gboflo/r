@@ -23,3 +23,4 @@ manifest or a ".project" file so they are recognized as projects.
     4. We are supposed to be able to include topologies in an inventory zip but I don't know how to do that. So I just put them in "InventoryA"
 7. Use reporting service API to download report templates. Copy to git repository. They can go anywhere. I put in the "reports" folder along with Kibana data.
 8. Use Kibana to create dashboards and vizualization and export to JSON. Copy to git repository and give "kibana" extension. They also can go anywhere. I put them in the "reports" folder.
+# r
