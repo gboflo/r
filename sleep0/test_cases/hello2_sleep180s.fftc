@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<testCase version="8.0.0.201908290812">
+    <execution>
+        <parameters version="8.0.0.201908290812">
+            <parameters escape="true">
+                <parameters xmlns:pt="http://www.fnfr.com/schemas/parameterTree">
+                    <text>text</text>
+                    <text_masked pt:mask="true">ghVuoVqWCvY=</text_masked>
+                    <boolean_true pt:datatype="BOOLEAN">true</boolean_true>
+                    <boolean_false pt:datatype="BOOLEAN">false</boolean_false>
+                    <boolean_unset pt:datatype="BOOLEAN"/>
+                    <int pt:datatype="INTEGER">32</int>
+                    <double pt:datatype="DOUBLE">0.5</double>
+                    <custom pt:datatype="Custom">Item0</custom>
+                    <param1>a</param1>
+                    <param2>a</param2>
+                    <param3>a</param3>
+                    <param4>a</param4>
+                    <param5>a</param5>
+                    <param6>a</param6>
+                    <param7>a</param7>
+                </parameters>
+            </parameters>
+            <parametersTypes>
+                <item name="Custom">
+                    <items>
+                        <item name="Item0"/>
+                        <item name="Item1"/>
+                        <item name="Item2"/>
+                    </items>
+                </item>
+            </parametersTypes>
+        </parameters>
+    </execution>
+    <procedures>
+        <item name="main">
+            <steps>
+                <item guid="bebb5940-c885-44d6-b712-b628d8b8fb68" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>puts hello</body>
+                    </command>
+                    <postProcessing>
+                        <analysisRules>
+                            <item>
+                                <extractorInfo extractorType="contains">
+                                    <extractorProperties type="com.fnfr.svt.mapping.execution.extractors.ExtractorContainsPropertyGroup">
+                                        <searchString>hello</searchString>
+                                    </extractorProperties>
+                                </extractorInfo>
+                                <processorInfo ruleType="assert">
+                                    <ruleProperties type="com.fnfr.svt.execution.builtin.processors.AssertionPropertyGroup">
+                                        <expression>$value == 1</expression>
+                                        <actionsWhenTrue>
+                                            <item actionId="DeclareExecutionIssue">
+                                                <actionProperties type="com.fnfr.svt.execution.builtin.actions.ExecutionIssuePropertyGroup" severity="OK">
+                                                    <message>{auto_message_true}</message>
+                                                </actionProperties>
+                                            </item>
+                                            <item actionId="PassTestIfNotAlreadyFailed">
+                                                <actionProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                                            </item>
+                                        </actionsWhenTrue>
+                                        <actionsWhenFalse>
+                                            <item actionId="DeclareExecutionIssue">
+                                                <actionProperties type="com.fnfr.svt.execution.builtin.actions.ExecutionIssuePropertyGroup">
+                                                    <message>{auto_message_false}</message>
+                                                </actionProperties>
+                                            </item>
+                                            <item actionId="FailTest">
+                                                <actionProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                                            </item>
+                                        </actionsWhenFalse>
+                                    </ruleProperties>
+                                </processorInfo>
+                            </item>
+                        </analysisRules>
+                    </postProcessing>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="d496d7f6-0d6a-4988-ac4f-5b7ddafc9ae3" action="sleep" estimatedStepExecutionTime="10000" useProcTimeout="false">
+                    <command>
+                        <body>180</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="f8bbac61-68e8-4706-8efb-998defb75321" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>puts [param text_masked]</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+            </steps>
+        </item>
+    </procedures>
+</testCase>
