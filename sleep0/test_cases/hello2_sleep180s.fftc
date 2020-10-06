@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<testCase version="7.3.3.0">
+<testCase version="8.0.0.201908290812">
     <execution>
-        <parameters version="7.3.3.0">
+        <parameters version="8.0.0.201908290812">
             <parameters escape="true">
                 <parameters xmlns:pt="http://www.fnfr.com/schemas/parameterTree">
                     <text>text</text>
@@ -75,6 +75,12 @@
                             </item>
                         </analysisRules>
                     </postProcessing>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="d496d7f6-0d6a-4988-ac4f-5b7ddafc9ae3" action="sleep" estimatedStepExecutionTime="10000" useProcTimeout="false">
+                    <command>
+                        <body>180</body>
+                    </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="f8bbac61-68e8-4706-8efb-998defb75321" action="eval" useFieldsInCommand="false">
