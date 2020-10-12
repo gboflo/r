@@ -1,0 +1,104 @@
+{
+  "defaultData": {
+    "hidden": false,
+    "timeout": 10,
+    "verdictMethod": "EXIT_CODE_VERDICT_PARSING",
+    "commandSequence": [
+      "%file% %parameterNameValuePairList%"
+    ],
+    "parameters": [
+      {
+        "name": "demo",
+        "value": "manifest"
+      },
+	  { 
+	  "name": "boolean1",
+	  "type": "BOOLEAN",
+	  "value": true
+	  },
+	  { 
+	  "name": "boolean2",
+	  "type": "BOOLEAN",
+	  "value": false
+	  },
+	   { 
+	  "name": "boolean3",
+	  "type": "BOOLEAN",
+	  "value": "None"
+	  },
+	   { 
+	  "name": "masked1",
+	  "type": "TEXT",
+	  "value": "6tgA3NkRPCMJor6ZZIWzzg==",
+	  "masked": true,
+	  "description": "description"
+	    },
+	    { 
+	  "name": "integer1",
+	  "type": "INTEGER",
+	  "value": 5
+	  },
+	    { 
+	  "name": "double1",
+	  "type": "DOUBLE",
+	  "value": 3.4 
+	    }  
+    ],
+    "executionMessages": {
+      "ok": ".*verified.*",
+      "info": ".*DEBUG.*|.*INFO.*",
+      "warning": ".*WARNING.*",
+      "error": ".*ERROR.*|.*CRITICAL.*"
+    },
+    "verdictParsing": {
+      "passTest": "Finished: PASSED",
+      "passTestIfNotAlreadyFailed": "SUCCESS",
+      "failTestIfPassing": "Failure number \\d+",
+      "failTest": "Finished: FAILED"
+    }
+  },
+  "fileSets": [
+    {
+      "fileNameMatch": ".*\\.py",
+      "language": "python",
+      "tags":["tag1", "tag2", "tag3"],
+      "parameters":[
+        { 
+    "name": "test_custom",
+    "type": "recipients",
+    "value":  "World!"
+      }
+      ],
+      "customParameterTypes": [
+        {
+          "name": "recipients",
+          "choices": [
+            {
+              "name": "World!",
+              "description": "Our planet"
+            },
+            {
+              "name": "Universe!",
+              "description": "SETI greeting"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fileNameMatch": ".*\\.sh",
+      "language": "bash",
+      "tags":["tag1", "tag2", "tag3"]
+    },
+    {
+      "fileNameMatch": ".*\\.ps1",
+      "language": "powershell",
+      "tags":["tag1", "tag2", "tag3"]
+    },
+    {
+      "fileNameMatch": ".*\\.bat",
+      "language": "batch",
+      "tags":["tag1", "tag2", "tag3"]
+    }
+  ]
+}
