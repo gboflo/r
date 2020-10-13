@@ -1,6 +1,6 @@
 {
   "name":"example-0",
-  "version":"1.0.0",
+  "version":"2.0.0",
   "description": "Example package as a starting point for development.",
   "icon":"example-0.svg",
   "dependencies":{
