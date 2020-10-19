@@ -2,8 +2,7 @@
 import sys
 import time
 
-duration = 7
-print("gimi")
+duration = 5
 
 print "[{}]: '{}' sleeping for {} seconds ...".format(time.ctime(), sys.argv[0], duration)
 time.sleep( duration )
