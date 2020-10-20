@@ -2,7 +2,7 @@
 import sys
 import time
 
-duration = 7
+duration = 5
 print("gim")
 print "[{}]: '{}' sleeping for {} seconds ...".format(time.ctime(), sys.argv[0], duration)
 time.sleep( duration )
