@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><tbml xmlns="http://www.teslaalliance.org/trs/tbml/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd">
+<header>
+<name>mixed_topo</name>
+<description/>
+</header>
+<illustration>
+<layer/>
+</illustration>
+<body>
+<resources>
+<resource guid="52f5983a-3db8-41ca-924d-a698a1f5992e" id="i4180ad61-0281-4c44-8b75-cfde54e3dc5d" shared="true" type="device">
+<property isimportant="false" name="name">PC83TestAutomationDevice1</property>
+<property isimportant="false" name="inventoryName">PC83TestAutomationDevice1</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=52f5983a-3db8-41ca-924d-a698a1f5992e</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<boundary height="100" width="100" x="382.00000000000006" y="23"/>
+<propertyCollection name="Location Information">
+<property id="f204af77-193c-2691-8ccf-9fb93a9e8715" name="Facility" type="text" valuelabel=""/>
+<property id="0c51db73-66d5-a3fa-9128-cc1192b33553" name="Room" type="text" valuelabel=""/>
+<property id="c23e1389-6108-e3ac-edec-6d61c2ae4c6f" name="Floor Position" type="text" valuelabel=""/>
+</propertyCollection>
+<propertyCollection name="Credentials">
+<property id="47102b8d-da69-6f6a-c600-a28987f05de3" name="username" type="text" valuelabel=""/>
+<property id="1e7f0d23-9002-4525-72bb-4c9410e66443" name="password" type="password" valuelabel=""/>
+</propertyCollection>
+<propertyCollection name="System Identification">
+<property id="c6da5d9a-4e7b-461d-834e-1f89e37f9699" name="ipAddress" type="text" valuelabel="">localhost</property>
+<property id="e30e13ef-780b-80c3-ce42-1489bfa98ba4" name="Hostname" type="text" valuelabel=""/>
+<property id="27583dc4-e653-5eed-4274-04443dba7509" name="Make" type="text" valuelabel=""/>
+<property id="b0db6723-9e93-56ac-f73f-19eab60948df" name="Model" type="text" valuelabel=""/>
+<property id="a233419b-c188-e763-2a69-77374ecd14dd" name="Serial Number" type="text" valuelabel=""/>
+</propertyCollection>
+</resource>
+<resource guid="c7920614-207b-40c4-acb6-05b612ee9c9b" id="i014b7d18-8889-4d18-ae31-3de3a8d1b565" shared="true" type="device">
+<property isimportant="false" name="name">AWS Instance</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=c7920614-207b-40c4-acb6-05b612ee9c9b</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId"/>
+<property isimportant="false" name="hostResource_topologyResourceId"/>
+<property isimportant="false" name="hostResource_parentType"/>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[AWS Instance]</extensions>
+<boundary height="100" width="100" x="549" y="201.00000000000003"/>
+<property name="inventoryName"/>
+</resource>
+</resources>
+<connectivity/>
+</body>
+</tbml>
