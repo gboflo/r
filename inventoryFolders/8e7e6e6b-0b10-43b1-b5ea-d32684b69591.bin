@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><tbml xmlns="http://www.teslaalliance.org/trs/tbml/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd">
+<header>
+<name>s2</name>
+<description/>
+</header>
+<illustration>
+<layer/>
+</illustration>
+<body>
+<resources>
+<resource guid="6e99d299-77ae-4235-a79d-651b8a17ea51" id="i7bf2f92f-4dda-4475-8f83-8c82d7279712" shared="true" type="device">
+<property isimportant="false" name="name">S2</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=6e99d299-77ae-4235-a79d-651b8a17ea51</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId"/>
+<property isimportant="false" name="hostResource_topologyResourceId"/>
+<property isimportant="false" name="hostResource_parentType"/>
+<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<property isimportant="false" name="templateId">eeda82cc-891f-49bd-9e73-6551f49bd3ac</property>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<boundary height="100" width="100" x="929" y="169"/>
+<resource guid="bb813e41-8f56-4298-960b-631bdb4d7397" id="if4449b7f-673f-43d8-b9f4-eb3506119291" type="port">
+<property isimportant="false" name="name">Port1</property>
+<property isimportant="false" name="description">Port1</property>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+<resource guid="4b24de73-d2a1-45d7-8d90-d32909ce8423" id="if177671b-7eb6-40bd-b7ad-78c267e580a5" type="port">
+<property isimportant="false" name="name">Port2</property>
+<property isimportant="false" name="description">Port2</property>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+<resource guid="e3d0e65a-325c-4f4b-88e2-e9235f223590" id="i1493bb5a-0fe0-4916-8de0-895fcd2926c9" type="port">
+<property isimportant="false" name="name">Port3</property>
+<property isimportant="false" name="description">Port3</property>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+<resource guid="19b30b3d-9132-4719-a03b-3ed43b7e6b23" id="i6a749f0a-a321-4466-a711-f2f67b1bb51b" type="port">
+<property isimportant="false" name="name">Port4</property>
+<property isimportant="false" name="description">Port4</property>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+<resource guid="06c839df-406b-420e-bbad-0c8cc986020a" id="i8994179c-3da6-4016-862b-46e46faf3ad3" type="port">
+<property isimportant="false" name="name">Port5</property>
+<property isimportant="false" name="description">Port5</property>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+<resource guid="2692e2e6-c58b-4eee-9b23-abdee38905d8" id="i88f1106d-6358-442b-b9ce-19055dbf6969" type="port">
+<property isimportant="false" name="name">Port6</property>
+<property isimportant="false" name="description">Port6</property>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+</resource>
+</resources>
+<connectivity/>
+</body>
+</tbml>
