@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><tbml xmlns="http://www.teslaalliance.org/trs/tbml/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd">
+<header>
+<name>Virtual_topo</name>
+<description/>
+</header>
+<illustration>
+<layer/>
+</illustration>
+<body>
+<resources>
+<resource guid="V1:VIRTUAL_MACHINE:APPLICATION:00000000-0000-0000-0000-000000000000::" id="i872be049-e6ec-446d-9abc-375c758ea87d" shared="false" type="virtual_machine">
+<property isimportant="false" name="name">Virtual Machine</property>
+<property isimportant="false" name="description">A virtual machine is an isolated guest operating system installation within a normal host operating system.</property>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=V1:VIRTUAL_MACHINE:APPLICATION:00000000-0000-0000-0000-000000000000::</property>
+<property isimportant="false" name="ilo_vmTemplateId"/>
+<property isimportant="false" name="ilo_iconId"/>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<property isimportant="false" name="cloudObjectOwnershipType">APPLICATION</property>
+<propertyCollection name="Initial Configuration" order="0">
+<property description="Current status of object." editable="false" id="statusId" iscloudspecific="false" isimportant="false" name="Status" order="0" required="false" type="TEXT"/>
+<property description="The availability zone in which to launch the virtual machine." editable="true" id="availabilityZoneId" iscloudspecific="true" isimportant="false" name="Availability zone" order="1" required="false" type="TEXT"/>
+<property description="Key Pairs are required to login to your instance through SSH after it is launched." editable="true" id="keyPairId" iscloudspecific="true" isimportant="false" name="Key pair" order="2" required="false" type="TEXT"/>
+<property description="One or more security group names delimited with &quot;,&quot;. If you omit security group, the virtual machine is created in the default security group." editable="true" id="securityGroupId" iscloudspecific="false" isimportant="false" name="Security groups" order="3" required="false" type="TEXT"/>
+<property description="Configuration information or scripts to use upon launch." editable="true" id="customScriptId" iscloudspecific="false" isimportant="false" name="Customization script" order="4" required="false" type="TEXT_AREA"/>
+<property description="Configure IP packets to go through the Router that is connected to the same network. Note: This setting only works for Linux machines." editable="true" id="configureL3RoutesId" iscloudspecific="false" isimportant="false" name="Configure L3 routes" order="5" required="true" type="BOOLEAN" valuelabel="true">true</property>
+</propertyCollection>
+<propertyCollection name="Hardware Configuration" order="1">
+<property description="The hardware profile reference for the desired CPU Cores, RAM and disk size for your virtual machine." editable="false" id="hardwareProfileId" iscloudspecific="true" isimportant="false" name="Hardware profile" order="0" required="false" type="DROP_DOWN_LIST"/>
+<property description="Minimum CPU cores for your virtual machine." editable="true" id="minCpuCoresId" iscloudspecific="false" isimportant="false" name="Min CPU cores" order="1" required="false" type="INTEGER">1</property>
+<property description="Minimum RAM in MB for your virtual machine." editable="true" id="minRamMbId" iscloudspecific="false" isimportant="false" name="Min RAM MB" order="2" required="false" type="INTEGER">2</property>
+<property description="Min disc in GB for your virtual machine." editable="true" id="minDiscGbId" iscloudspecific="false" isimportant="false" name="Min disc GB" order="3" required="false" type="INTEGER">1</property>
+</propertyCollection>
+<propertyCollection name="Image Configuration" order="2">
+<property description="The image reference for the desired image for your server instance." editable="false" id="imageId" iscloudspecific="true" isimportant="false" name="Image" order="0" required="false" type="DROP_DOWN_LIST"/>
+<property description="Search string for the virtual machine image by the operating system family." editable="true" id="osFamilyMatchId" iscloudspecific="false" isimportant="false" name="OS family" order="1" required="false" type="DROP_DOWN_LIST"/>
+<property description="Search string for the virtual machine image by the operating system version (full regex matching)." editable="true" id="osVersionMatchId" iscloudspecific="false" isimportant="false" name="OS version" order="2" required="false" type="TEXT">2</property>
+<property description="Search string for the virtual machine image by the image name (full or partial regex matching)." editable="true" id="imageNameMatchId" iscloudspecific="false" isimportant="false" name="Image name" order="3" required="false" type="TEXT">2</property>
+<property description="Search string for the virtual machine image by the image custom properties (full or partial regex matching)." editable="true" id="customPropertiesMatchId" iscloudspecific="false" isimportant="false" name="Custom properties match" order="4" required="false" type="TEXT"/>
+</propertyCollection>
+<propertyCollection name="General" order="-100">
+<property description="" editable="true" id="cloudId" iscloudspecific="false" isimportant="false" name="Cloud" order="-100" required="true" type="DROP_DOWN_LIST" valuelabel="Any Cloud">00000000-0000-0000-0000-000000000000</property>
+</propertyCollection>
+<boundary height="100" width="100" x="438.00000000000006" y="164"/>
+</resource>
+</resources>
+<connectivity/>
+</body>
+</tbml>
