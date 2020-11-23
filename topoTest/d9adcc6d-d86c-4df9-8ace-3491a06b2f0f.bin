@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><tbml xmlns="http://www.teslaalliance.org/trs/tbml/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd">
 <header>
-<name>abs3</name>
+<name>Abs T1</name>
 <description/>
 </header>
 <illustration>
@@ -8,17 +8,17 @@
 </illustration>
 <body>
 <resources>
-<resource guid="c0d6ec65-7ca0-4d02-a0da-839044e270c9" id="if6c071b0-a223-4c99-b8a3-0a2dd97e6f27" shared="true" type="device">
-<property isimportant="false" name="name">Hub</property>
+<resource guid="" id="i18d52747-065d-45d3-9611-b84888a69993" shared="true" type="device">
+<property isimportant="false" name="name">abs</property>
 <property isimportant="false" name="description"/>
-<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=c0d6ec65-7ca0-4d02-a0da-839044e270c9</property>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=e348c386-91bc-4fbf-805b-6a4e87c96542</property>
 <property isimportant="false" name="reservationTime">IMMEDIATE</property>
-<property isimportant="false" name="ilo_iconId">f1ae4620-ef23-4ebc-86ff-c902b0733da6</property>
+<property isimportant="false" name="ilo_iconId"/>
 <property isimportant="false" name="hostResource_topologyResourceId"/>
 <property isimportant="false" name="hostResource_parentType"/>
 <property isimportant="false" name="ilo_shape">RECTANGLE</property>
-<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[Hub]</extensions>
-<boundary height="100" width="100" x="422.00000000000006" y="200"/>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[T1]</extensions>
+<boundary height="100" width="100" x="522" y="167"/>
 <property name="inventoryName"/>
 </resource>
 </resources>
