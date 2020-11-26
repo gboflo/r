@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><tbml xmlns="http://www.teslaalliance.org/trs/tbml/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd">
 <header>
-<name>s2</name>
+<name>Topo1</name>
 <description/>
 </header>
 <illustration>
@@ -8,18 +8,18 @@
 </illustration>
 <body>
 <resources>
-<resource guid="40809c38-06c5-42c0-96a6-b8c96afd1638" id="i0aa6162e-d7d6-46f4-88d8-a37b5e87221b" shared="true" type="device">
-<property isimportant="false" name="name">S2</property>
+<resource guid="67fe5393-4acd-4d30-ae8c-0993b9819110" id="if888cb90-83c6-4c24-bf43-68e9ed194845" shared="true" type="device">
+<property isimportant="false" name="name">T1</property>
 <property isimportant="false" name="description"/>
-<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=40809c38-06c5-42c0-96a6-b8c96afd1638</property>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=67fe5393-4acd-4d30-ae8c-0993b9819110</property>
 <property isimportant="false" name="reservationTime">IMMEDIATE</property>
 <property isimportant="false" name="ilo_iconId"/>
 <property isimportant="false" name="hostResource_topologyResourceId"/>
 <property isimportant="false" name="hostResource_parentType"/>
-<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
-<property isimportant="false" name="templateId">e8a11467-2ac4-4164-8009-74cd7073cd6c</property>
 <property isimportant="false" name="ilo_shape">RECTANGLE</property>
-<boundary height="100" width="100" x="651" y="175"/>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[T1]</extensions>
+<boundary height="100" width="100" x="1016" y="262"/>
+<property name="inventoryName"/>
 </resource>
 </resources>
 <connectivity/>
