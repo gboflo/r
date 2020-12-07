@@ -204,9 +204,7 @@ etc</description>
 			<type>DEVICE</type>
 			<name>s1</name>
 			<description></description>
-			<condition>template[
-	T1
-]</condition>
+			<condition>template[T1]</condition>
 			<role>S1_VELOCITY_SELECTED</role>
 			<referencedTemplateId>b675ec5e-71dd-4857-82ac-6e4fe1d58978</referencedTemplateId>
 			<visibility>PUBLIC</visibility>
