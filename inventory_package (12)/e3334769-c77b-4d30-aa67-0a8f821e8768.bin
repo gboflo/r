@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><tbml xmlns="http://www.teslaalliance.org/trs/tbml/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd">
+<header>
+<name>2 PCs</name>
+<description/>
+</header>
+<illustration>
+<layer/>
+</illustration>
+<body>
+<resources>
+<resource guid="fea52e8b-8d75-455e-baa5-80751d9625c7" id="i32f366ed-5f8b-492d-9407-719499788e53" shared="true" type="device">
+<property isimportant="false" name="name">PC</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=fea52e8b-8d75-455e-baa5-80751d9625c7</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId">4c397264-6044-4386-bec6-760be67f6545</property>
+<property isimportant="false" name="hostResource_topologyResourceId"/>
+<property isimportant="false" name="hostResource_parentType"/>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[PC]</extensions>
+<boundary height="100" width="100" x="383" y="217"/>
+<property name="inventoryName"/>
+</resource>
+<resource guid="fea52e8b-8d75-455e-baa5-80751d9625c7" id="i382e0b54-4bd9-456b-b67d-cfd331f1de24" shared="true" type="device">
+<property isimportant="false" name="name">PC (2)</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=fea52e8b-8d75-455e-baa5-80751d9625c7</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId">4c397264-6044-4386-bec6-760be67f6545</property>
+<property isimportant="false" name="hostResource_topologyResourceId"/>
+<property isimportant="false" name="hostResource_parentType"/>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[PC]</extensions>
+<boundary height="100" width="100" x="617" y="217"/>
+<resource guid="i8d6702e1-ffc2-4131-9519-02b3d910ca91" id="i8d6702e1-ffc2-4131-9519-02b3d910ca91" type="port">
+<property isimportant="false" name="name">Port 1</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">any</extensions>
+<property name="inventoryName"/>
+</resource>
+<resource guid="i0c838baa-9f89-4438-8684-21583bd16a5b" id="i0c838baa-9f89-4438-8684-21583bd16a5b" type="port">
+<property isimportant="false" name="name">Port 2</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">any</extensions>
+<property name="inventoryName"/>
+</resource>
+<resource guid="ic98237f4-7a2e-4a1b-86dd-960e0f3e4f43" id="ic98237f4-7a2e-4a1b-86dd-960e0f3e4f43" type="port">
+<property isimportant="false" name="name">Port 3</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">any</extensions>
+<property name="inventoryName"/>
+</resource>
+<resource guid="i4efd87c8-1b99-4e07-ac57-5b25440230a0" id="i4efd87c8-1b99-4e07-ac57-5b25440230a0" type="port">
+<property isimportant="false" name="name">Port 4</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">any</extensions>
+<property name="inventoryName"/>
+</resource>
+<property name="inventoryName"/>
+</resource>
+</resources>
+<connectivity/>
+</body>
+</tbml>
