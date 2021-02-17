@@ -2,24 +2,6 @@
 <inventory format-version="1.0">
    <templates>
       <template>
-         <id>67fe5393-4acd-4d30-ae8c-0993b9819110</id>
-         <revisionId>67fe5393-4acd-4d30-ae8c-0993b9819110</revisionId>
-         <name>T1</name>
-         <description />
-         <isTemplate>true</isTemplate>
-         <type>DEVICE</type>
-         <interfaceType>ORCHESTRATION</interfaceType>
-         <utilizationType>SHARED</utilizationType>
-         <reservationTime>IMMEDIATE</reservationTime>
-         <isCustomReservationTime>false</isCustomReservationTime>
-         <icon />
-         <nestedTemplates>
-            <nestedTemplate>
-               <id>1f1656f3-e68f-42b3-8aef-896a1673c59f</id>
-            </nestedTemplate>
-         </nestedTemplates>
-      </template>
-      <template>
          <id>1f1656f3-e68f-42b3-8aef-896a1673c59f</id>
          <revisionId>1f1656f3-e68f-42b3-8aef-896a1673c59f</revisionId>
          <name>T2</name>
@@ -84,7 +66,7 @@
          <type>DEVICE</type>
          <name>Ar1</name>
          <description />
-         <condition>template[T1]</condition>
+         <condition>template[T2]</condition>
          <reservationTime>IMMEDIATE</reservationTime>
          <isPublic>true</isPublic>
          <icon />
@@ -107,7 +89,7 @@
          <type>DEVICE</type>
          <name>Ar2</name>
          <description />
-         <condition>template[T1]</condition>
+         <condition>template[T2]</condition>
          <reservationTime>IMMEDIATE</reservationTime>
          <isPublic>true</isPublic>
          <icon />
@@ -117,7 +99,7 @@
                <type>DEVICE</type>
                <name>nestAr2</name>
                <description />
-               <condition>template[T1]</condition>
+               <condition>template[T2]</condition>
                <reservationTime>IMMEDIATE</reservationTime>
                <isPublic>true</isPublic>
                <referencedTemplateId>67fe5393-4acd-4d30-ae8c-0993b9819110</referencedTemplateId>
