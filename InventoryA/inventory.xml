@@ -21,7 +21,7 @@
          <type>DEVICE</type>
          <name>OrS1</name>
          <description />
-         <condition>template[T1]</condition>
+         <condition>template[T2]</condition>
          <role>S1_VELOCITY_SELECTED</role>
          <referencedTemplateId>67fe5393-4acd-4d30-ae8c-0993b9819110</referencedTemplateId>
          <visibility>PUBLIC</visibility>
