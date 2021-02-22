@@ -217,39 +217,6 @@
 		</orchestratedResource>
 	</orchestratedResources>
 		<abstractResource>
-			<id>13a94d24-2a6b-4ecb-9346-9278c13e4dba</id>
-			<type>DEVICE</type>
-			<name>Abs1g</name>
-			<description></description>
-			<condition>template[T1G]</condition>
-			<reservationTime>IMMEDIATE</reservationTime>
-			<isPublic>true</isPublic>
-			<icon/>
-			<nestedResources>
-				<abstractResource>
-					<id>b7778b53-41d4-4185-8591-4149c4d783a1</id>
-					<type>PORT</type>
-					<name>New Port</name>
-					<description></description>
-					<condition>template[Port_Template_G]</condition>
-					<reservationTime>IMMEDIATE</reservationTime>
-					<isPublic>true</isPublic>
-					<referencedTemplateId>2da2f6e7-a4d5-481f-9e92-7bc5d7aee7f2</referencedTemplateId>
-					<icon/>
-				</abstractResource>
-				<abstractResource>
-					<id>9ef9b6f4-84c6-4479-989a-aa3741d5a465</id>
-					<type>DEVICE</type>
-					<name>T2G</name>
-					<description></description>
-					<condition>template[T2G]</condition>
-					<reservationTime>IMMEDIATE</reservationTime>
-					<isPublic>true</isPublic>
-					<referencedTemplateId>6a23184a-53af-46f6-a90a-026aa7871c81</referencedTemplateId>
-					<icon/>
-				</abstractResource>
-			</nestedResources>
-		</abstractResource>
 	</abstractResources>
 		<topology>
 			<name>AbsTopo</name>
