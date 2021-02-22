@@ -29,7 +29,6 @@
             <name />
          </resourceGroup>
          <icon />
-         <nestedResources>
             <orchestratedResource>
                <id>791fcc80-ae3e-4982-9406-1dfbe5dace61</id>
                <type>DEVICE</type>
@@ -57,7 +56,6 @@
                </resourceGroup>
                <icon />
             </orchestratedResource>
-         </nestedResources>
       </orchestratedResource>
    </orchestratedResources>
    <abstractResources>

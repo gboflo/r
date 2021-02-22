@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><tbml xmlns="http://www.teslaalliance.org/trs/tbml/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd">
+<header>
+<name>S2_RG3</name>
+<description/>
+</header>
+<illustration>
+<layer/>
+</illustration>
+<body>
+<resources>
+<resource guid="6b3c7bdb-fa67-4965-8e8a-948b2565fb2d" id="i3be56cdc-7f4d-4f6f-a9c8-2cb30aec35bd" shared="true" type="device">
+<property isimportant="false" name="name">s2_rg3</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=6b3c7bdb-fa67-4965-8e8a-948b2565fb2d</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId"/>
+<property isimportant="false" name="hostResource_topologyResourceId"/>
+<property isimportant="false" name="hostResource_parentType"/>
+<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<property isimportant="false" name="templateId">0e8fceb6-f4a2-4c0e-bb5e-06d5cb1df747</property>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<boundary height="100" width="100" x="755" y="210"/>
+</resource>
+</resources>
+<connectivity/>
+</body>
+</tbml>

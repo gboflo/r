@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><tbml xmlns="http://www.teslaalliance.org/trs/tbml/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd">
+<header>
+<name>S2_S2</name>
+<description/>
+</header>
+<illustration>
+<layer/>
+</illustration>
+<body>
+<resources>
+<resource guid="i5e005ece-5ef1-49ac-af9e-ebb8ef57fd4c" id="i5e005ece-5ef1-49ac-af9e-ebb8ef57fd4c" shared="false" type="group">
+<property isimportant="false" name="name">S2-&gt;S2-&gt;S2 Group</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="isorchestrated">true</property>
+<property isimportant="false" name="collapsed"/>
+<boundary height="395" width="140" x="764.6666666666665" y="131.83333333333337"/>
+<resource guid="bf68589e-b9cc-4d70-8f09-cfbd2691e5fd" id="i81081dc5-201b-4c82-b8cd-8f93bc678c6d" shared="true" type="device">
+<property isimportant="false" name="name">S2-&gt;S2-&gt;S2</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=bf68589e-b9cc-4d70-8f09-cfbd2691e5fd</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId"/>
+<property isimportant="false" name="hostResource_topologyResourceId"/>
+<property isimportant="false" name="hostResource_parentType"/>
+<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<property isimportant="false" name="templateId">8e7e3389-fb21-4ffc-96bf-68487b0c72e1</property>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<boundary height="100" width="100" x="20" y="34.99999999999997"/>
+</resource>
+<resource guid="da621f1f-4a30-4c11-8b88-42e8e8cc50be" id="i4b3d5a4f-6d8b-4758-bc91-6968aa05de97" shared="true" type="device">
+<property isimportant="false" name="name">S2</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=da621f1f-4a30-4c11-8b88-42e8e8cc50be</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId"/>
+<property isimportant="false" name="hostResource_topologyResourceId">i81081dc5-201b-4c82-b8cd-8f93bc678c6d</property>
+<property isimportant="false" name="hostResource_parentType">PARENT</property>
+<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<property isimportant="false" name="templateId">191c8ef2-da0e-4e93-b48e-3e57a5071110</property>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<boundary height="100" width="100" x="20" y="155"/>
+</resource>
+<resource guid="1615e8ff-0a4b-41c7-bdc5-418eee39a605" id="i2eda720c-8b63-4bed-a038-0eb5a86e484f" shared="true" type="device">
+<property isimportant="false" name="name">S2 (2)</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=1615e8ff-0a4b-41c7-bdc5-418eee39a605</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId"/>
+<property isimportant="false" name="hostResource_topologyResourceId">i4b3d5a4f-6d8b-4758-bc91-6968aa05de97</property>
+<property isimportant="false" name="hostResource_parentType">PARENT</property>
+<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<property isimportant="false" name="templateId">0e8fceb6-f4a2-4c0e-bb5e-06d5cb1df747</property>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<boundary height="100" width="100" x="20" y="275"/>
+</resource>
+</resource>
+</resources>
+<connectivity/>
+</body>
+</tbml>

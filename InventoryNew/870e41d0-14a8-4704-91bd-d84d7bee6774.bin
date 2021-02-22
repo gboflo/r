@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><tbml xmlns="http://www.teslaalliance.org/trs/tbml/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd">
+<header>
+<name>New topology</name>
+<description/>
+</header>
+<illustration>
+<layer/>
+</illustration>
+<body>
+<resources>
+<resource guid="id8123a60-2a12-4dbb-9b13-c1670247b3df" id="id8123a60-2a12-4dbb-9b13-c1670247b3df" shared="false" type="group">
+<property isimportant="false" name="name">S1-&gt;2 Group</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="isorchestrated">true</property>
+<property isimportant="false" name="collapsed"/>
+<boundary height="275" width="140" x="795.6666666666667" y="111.83333333333334"/>
+<resource guid="a1bb9543-1086-42d2-b989-5e9429b8d739" id="iecf97c91-4cee-428b-84c4-82f62d0dbe47" shared="true" type="device">
+<property isimportant="false" name="name">S1-&gt;2</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=a1bb9543-1086-42d2-b989-5e9429b8d739</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId"/>
+<property isimportant="false" name="hostResource_topologyResourceId"/>
+<property isimportant="false" name="hostResource_parentType"/>
+<property isimportant="false" name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
+<property isimportant="false" name="templateId">8e7e3389-fb21-4ffc-96bf-68487b0c72e1</property>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[T1]</extensions>
+<boundary height="100" width="100" x="20" y="35"/>
+<resource guid="595b2669-1d20-4d3a-bf2f-7fefbe8e3329" id="i15f90ccf-cd14-4a1f-94bf-ca138acdb36c" type="port">
+<property isimportant="false" name="name">P1</property>
+<property isimportant="false" name="description">P1</property>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<property isimportant="false" name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[Network Port]</extensions>
+</resource>
+<resource guid="1f7ca11b-bc7a-49e7-b916-a12992f4620e" id="i3c5baf08-2b28-4e3c-a43c-799d836034bf" type="port">
+<property isimportant="false" name="name">P2</property>
+<property isimportant="false" name="description">P2</property>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<property isimportant="false" name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[Network Port]</extensions>
+</resource>
+<resource guid="55c9e19e-3053-40e9-b668-5a917f6291a9" id="iad0725e0-ab5d-4500-bfd1-2c25ac91ed0e" type="port">
+<property isimportant="false" name="name">P3</property>
+<property isimportant="false" name="description">P3</property>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<property isimportant="false" name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[Network Port]</extensions>
+</resource>
+<resource guid="40bd48e6-b1d6-422d-b974-a8709613c7ab" id="i66dfab02-0630-45d5-b4ba-37c67427422f" type="port">
+<property isimportant="false" name="name">P4</property>
+<property isimportant="false" name="description">P4</property>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<property isimportant="false" name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[Network Port]</extensions>
+</resource>
+</resource>
+<resource guid="9b748381-eeea-49ca-9b6d-9a123414c99b" id="iceaf3963-aeb1-4ac7-8eee-9817890fba59" shared="true" type="device">
+<property isimportant="false" name="name">S2</property>
+<property isimportant="false" name="description">Description</property>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=9b748381-eeea-49ca-9b6d-9a123414c99b</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId"/>
+<property isimportant="false" name="hostResource_topologyResourceId">iecf97c91-4cee-428b-84c4-82f62d0dbe47</property>
+<property isimportant="false" name="hostResource_parentType">PARENT</property>
+<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<property isimportant="false" name="templateId">191c8ef2-da0e-4e93-b48e-3e57a5071110</property>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<boundary height="100" width="100" x="20" y="155.00000000000003"/>
+<resource guid="5fde3f06-718a-42d9-bdbb-a65ef6a8bf81" id="if44d4c9b-1772-46e0-9847-1060cc0b971f" type="port">
+<property isimportant="false" name="name">P1</property>
+<property isimportant="false" name="description">P1</property>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+<resource guid="68f15c3e-fd62-4bb3-a7e8-f43276637075" id="ieb23c6c6-8ab2-4f49-adf0-2bb3ed87d5fa" type="port">
+<property isimportant="false" name="name">P2</property>
+<property isimportant="false" name="description">P2</property>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+<resource guid="ed36675d-b49c-4dcb-a8f6-bc4dfdb29608" id="ie726eb80-45eb-4884-b6e5-17262b22277f" type="port">
+<property isimportant="false" name="name">P3</property>
+<property isimportant="false" name="description">P3</property>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+<resource guid="a9b15193-7c98-477e-a358-0106dd74a721" id="i3b98b6aa-f27c-48ad-b7e3-c2869d829591" type="port">
+<property isimportant="false" name="name">P4</property>
+<property isimportant="false" name="description">P4</property>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+<resource guid="e7e70c12-dcb9-4c11-8f7c-2a4ade52f879" id="ic37f245c-0330-4b14-bc0f-6902667a70ec" type="port">
+<property isimportant="false" name="name">P5</property>
+<property isimportant="false" name="description">P5</property>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+<resource guid="e2b20a8e-ab23-43bc-97b7-0b7b1f92dbc7" id="id957e14a-8644-48b1-951e-4d7ae93b22bd" type="port">
+<property isimportant="false" name="name">P6</property>
+<property isimportant="false" name="description">P6</property>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+<resource guid="182d1f2c-572e-4ba4-8260-587518472807" id="ifbce4703-f7d1-41f3-99e3-92e56a1af0e8" type="port">
+<property isimportant="false" name="name">P7</property>
+<property isimportant="false" name="description">P7</property>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+<resource guid="514ff2da-6916-412b-b7fd-e2b97d08e321" id="i46b2c490-bb08-48fb-a9bb-ada3f2b2b2f1" type="port">
+<property isimportant="false" name="name">P8</property>
+<property isimportant="false" name="description">P8</property>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+<resource guid="937ccd15-bd76-4674-885a-39c48b9cd4ee" id="i9858d083-8e74-462b-bdb3-b532e6f4b207" type="port">
+<property isimportant="false" name="name">P9</property>
+<property isimportant="false" name="description">P9</property>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+<resource guid="d6cb280c-c3d3-4b96-a83e-bcbc475a82ba" id="id7957d38-9491-4c32-a148-9d2c5f70699d" type="port">
+<property isimportant="false" name="name">P10</property>
+<property isimportant="false" name="description">P10</property>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+</resource>
+</resource>
+</resource>
+</resources>
+<connectivity/>
+</body>
+</tbml>
