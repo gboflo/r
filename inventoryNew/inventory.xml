@@ -146,7 +146,7 @@
 				<orchestratedResource>
 					<id>6a1369ec-1665-470f-9c3f-c313f647ff84</id>
 					<type>DEVICE</type>
-					<name>s2g</name>
+					<name>s2g_new</name>
 					<description></description>
 					<role>S2_ORCHESTRATED</role>
 					<referencedTemplateId>6a23184a-53af-46f6-a90a-026aa7871c81</referencedTemplateId>
@@ -216,4 +216,58 @@
 			</nestedResources>
 		</orchestratedResource>
 	</orchestratedResources>
+	<abstractResources>
+		<abstractResource>
+			<id>13a94d24-2a6b-4ecb-9346-9278c13e4dba</id>
+			<type>DEVICE</type>
+			<name>Abs1g</name>
+			<description></description>
+			<condition>template[T1G]</condition>
+			<reservationTime>IMMEDIATE</reservationTime>
+			<isPublic>true</isPublic>
+			<icon/>
+			<nestedResources>
+				<abstractResource>
+					<id>b7778b53-41d4-4185-8591-4149c4d783a1</id>
+					<type>PORT</type>
+					<name>New Port</name>
+					<description></description>
+					<condition>template[Port_Template_G]</condition>
+					<reservationTime>IMMEDIATE</reservationTime>
+					<isPublic>true</isPublic>
+					<referencedTemplateId>2da2f6e7-a4d5-481f-9e92-7bc5d7aee7f2</referencedTemplateId>
+					<icon/>
+				</abstractResource>
+				<abstractResource>
+					<id>9ef9b6f4-84c6-4479-989a-aa3741d5a465</id>
+					<type>DEVICE</type>
+					<name>T2G</name>
+					<description></description>
+					<condition>template[T2G]</condition>
+					<reservationTime>IMMEDIATE</reservationTime>
+					<isPublic>true</isPublic>
+					<referencedTemplateId>6a23184a-53af-46f6-a90a-026aa7871c81</referencedTemplateId>
+					<icon/>
+				</abstractResource>
+			</nestedResources>
+		</abstractResource>
+	</abstractResources>
+	<topologies>
+		<topology>
+			<name>AbsTopo</name>
+			<attachment>
+				<id>71e2303e-ae1d-42fe-ad47-22dea8b8b39e</id>
+				<name>AbsTopo</name>
+				<contentType>application/xml</contentType>
+			</attachment>
+		</topology>
+		<topology>
+			<name>OrchTopo</name>
+			<attachment>
+				<id>5a6ab215-3dd6-4d3e-8889-f958f71a970e</id>
+				<name>OrchTopo</name>
+				<contentType>application/xml</contentType>
+			</attachment>
+		</topology>
+	</topologies>
 </inventory>
