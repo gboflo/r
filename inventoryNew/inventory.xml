@@ -216,23 +216,4 @@
 			</nestedResources>
 		</orchestratedResource>
 	</orchestratedResources>
-		<abstractResource>
-	</abstractResources>
-		<topology>
-			<name>AbsTopo</name>
-			<attachment>
-				<id>71e2303e-ae1d-42fe-ad47-22dea8b8b39e</id>
-				<name>AbsTopo</name>
-				<contentType>application/xml</contentType>
-			</attachment>
-		</topology>
-		<topology>
-			<name>OrchTopo</name>
-			<attachment>
-				<id>5a6ab215-3dd6-4d3e-8889-f958f71a970e</id>
-				<name>OrchTopo</name>
-				<contentType>application/xml</contentType>
-			</attachment>
-		</topology>
-	</topologies>
 </inventory>
