@@ -216,7 +216,6 @@
 			</nestedResources>
 		</orchestratedResource>
 	</orchestratedResources>
-	<abstractResources>
 		<abstractResource>
 			<id>13a94d24-2a6b-4ecb-9346-9278c13e4dba</id>
 			<type>DEVICE</type>
