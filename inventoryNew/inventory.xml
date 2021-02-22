@@ -258,7 +258,7 @@
 						<orchestratedResource>
 							<id>1d22be2e-1709-4df2-8005-a1d8bbd031b9</id>
 							<type>DEVICE</type>
-							<name>s2g</name>
+							<name>s2g2</name>
 							<description></description>
 							<role>S2_ORCHESTRATED</role>
 							<referencedTemplateId>c3c2dfb7-1c91-4b46-8af9-be40f47ffa7d</referencedTemplateId>
