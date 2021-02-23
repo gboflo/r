@@ -9,7 +9,7 @@
          <isTemplate>true</isTemplate>
          <type>DEVICE</type>
          <interfaceType>ORCHESTRATION</interfaceType>
-         <utilizationType>EXCLUSIVE</utilizationType>
+         <utilizationType>SHARED</utilizationType>
          <reservationTime>IMMEDIATE</reservationTime>
          <isCustomReservationTime>false</isCustomReservationTime>
          <icon />
@@ -128,7 +128,7 @@
    </abstractResources>
    <topologies>
       <topology>
-         <name>Topo1_new</name>
+         <name>Topo1</name>
          <attachment>
             <id>3004b516-5ff7-4f80-a58a-415dc5583063</id>
             <name>Topo1</name>
