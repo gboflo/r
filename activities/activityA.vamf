@@ -9,6 +9,8 @@
       "actionTitle":"Reserve",
       "description":"Descriptive text alongside button",
       "reservationDuration":"60",
+      "automation":[],
+      "interaction":[]
     }
   ]
 }
