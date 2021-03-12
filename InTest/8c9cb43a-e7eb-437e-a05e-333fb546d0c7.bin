@@ -13,7 +13,7 @@
 <property isimportant="false" name="description"/>
 <property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=a313ec0f-222a-4ef3-8474-548e2a22c909</property>
 <property isimportant="false" name="reservationTime">IMMEDIATE</property>
-<property isimportant="false" name="ilo_iconId">7be6e231-862c-4ffd-8fe7-a306920be963</property>
+<property isimportant="false" name="ilo_iconId">0f2ca92d-0391-4fc3-801a-07fb6b212b17</property>
 <property isimportant="false" name="hostResource_topologyResourceId"/>
 <property isimportant="false" name="hostResource_parentType"/>
 <property isimportant="false" name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
@@ -31,7 +31,7 @@
 <property isimportant="false" name="hostResource_topologyResourceId"/>
 <property isimportant="false" name="hostResource_parentType"/>
 <property isimportant="false" name="ilo_shape">RECTANGLE</property>
-<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[PC_TEST1]</extensions>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[PC_TEST]</extensions>
 <boundary height="100" width="100" x="329.1666666666667" y="-67.33333333333337"/>
 <property name="inventoryName"/>
 </resource>
