@@ -13,7 +13,7 @@
 <property isimportant="false" name="description"/>
 <property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=a313ec0f-222a-4ef3-8474-548e2a22c909</property>
 <property isimportant="false" name="reservationTime">IMMEDIATE</property>
-<property isimportant="false" name="ilo_iconId">61d58deb-0878-45d9-a30f-47b1e04c5084</property>
+<property isimportant="false" name="ilo_iconId">0a6f4348-86a6-49e2-8070-c055ec3c56ba</property>
 <property isimportant="false" name="hostResource_topologyResourceId"/>
 <property isimportant="false" name="hostResource_parentType"/>
 <property isimportant="false" name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
@@ -27,7 +27,7 @@
 <property isimportant="false" name="description"/>
 <property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=2a940516-90d3-4216-b112-d66356d23df0</property>
 <property isimportant="false" name="reservationTime">IMMEDIATE</property>
-<property isimportant="false" name="ilo_iconId">bf9cde12-3192-4020-abfb-a343b05b655d</property>
+<property isimportant="false" name="ilo_iconId">e93eff44-f179-4066-8e43-59e49d3c6d85</property>
 <property isimportant="false" name="hostResource_topologyResourceId"/>
 <property isimportant="false" name="hostResource_parentType"/>
 <property isimportant="false" name="ilo_shape">RECTANGLE</property>
