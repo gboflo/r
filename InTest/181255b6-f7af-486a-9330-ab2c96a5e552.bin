@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><tbml xmlns="http://www.teslaalliance.org/trs/tbml/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd">
 <header>
-<name>Topo4</name>
+<name>Topo3</name>
 <description/>
 </header>
 <illustration>
@@ -8,18 +8,19 @@
 </illustration>
 <body>
 <resources>
-<resource guid="2a940516-90d3-4216-b112-d66356d23df0" id="ie99ebf5e-10a1-4db7-ab6f-1024b4ce8652" shared="true" type="device">
-<property isimportant="false" name="name">ABS_test</property>
+<resource guid="2d19e07a-c020-4e0a-aaf4-c07c05738db3" id="i3da81440-ceec-42b5-9041-88e2b68ad658" shared="true" type="device">
+<property isimportant="false" name="name">s2</property>
 <property isimportant="false" name="description"/>
-<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=2a940516-90d3-4216-b112-d66356d23df0</property>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=2d19e07a-c020-4e0a-aaf4-c07c05738db3</property>
 <property isimportant="false" name="reservationTime">IMMEDIATE</property>
-<property isimportant="false" name="ilo_iconId">e187c50e-e5ce-4070-95b3-4de9809bcb2b</property>
+<property isimportant="false" name="ilo_iconId"/>
 <property isimportant="false" name="hostResource_topologyResourceId"/>
 <property isimportant="false" name="hostResource_parentType"/>
+<property isimportant="false" name="templateId">7f009c18-f4c3-4430-b120-ccefa6be8770</property>
 <property isimportant="false" name="ilo_shape">RECTANGLE</property>
-<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[PC_TEST2]</extensions>
-<boundary height="100" width="100" x="802" y="314"/>
-<property name="inventoryName"/>
+<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<boundary height="100" width="100" x="747" y="226"/>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition"/>
 </resource>
 </resources>
 <connectivity/>
