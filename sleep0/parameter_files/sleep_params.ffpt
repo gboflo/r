@@ -1,8 +1,9 @@
 <?xml version="1.0"?>
-<ParameterTree version="5.0.0.77059">
+<ParameterTree version="8.4.0.202012071239">
     <parameters escape="true">
         <parameters xmlns:pt="http://www.fnfr.com/schemas/parameterTree">
-            <Number_of_seconds>6</Number_of_seconds>
+            <Number_of_seconds>7</Number_of_seconds>
+            <new>new_param</new>
         </parameters>
     </parameters>
 </ParameterTree>

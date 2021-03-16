@@ -26,6 +26,7 @@
 <property isimportant="false" name="connectivity">any</property>
 <property isimportant="false" name="keepOnRemoveConnection">true</property>
 <property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<property name="ilo_iconId"/>
 </resource>
 </resource>
 </resources>
