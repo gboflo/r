@@ -13,13 +13,14 @@
 <property isimportant="false" name="description"/>
 <property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=2d19e07a-c020-4e0a-aaf4-c07c05738db3</property>
 <property isimportant="false" name="reservationTime">IMMEDIATE</property>
-<property isimportant="false" name="ilo_iconId">5593afcc-1c91-413e-a25e-1de497a58b3b</property>
+<property isimportant="false" name="ilo_iconId"/>
 <property isimportant="false" name="hostResource_topologyResourceId"/>
 <property isimportant="false" name="hostResource_parentType"/>
-<property isimportant="false" name="templateId">7f009c18-f4c3-4430-b120-ccefa6be8770</property>
+<property isimportant="false" name="templateId">a437fcb0-ed90-4bd9-9d2e-816e7d439d89</property>
 <property isimportant="false" name="ilo_shape">RECTANGLE</property>
 <property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
 <boundary height="100" width="100" x="747" y="226"/>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition"/>
 </resource>
 </resources>
 <connectivity/>
