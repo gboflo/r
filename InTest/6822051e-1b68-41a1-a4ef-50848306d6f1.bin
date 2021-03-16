@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><tbml xmlns="http://www.teslaalliance.org/trs/tbml/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd">
+<header>
+<name>Topo4</name>
+<description/>
+</header>
+<illustration>
+<layer/>
+</illustration>
+<body>
+<resources>
+<resource guid="2a940516-90d3-4216-b112-d66356d23df0" id="ie99ebf5e-10a1-4db7-ab6f-1024b4ce8652" shared="true" type="device">
+<property isimportant="false" name="name">ABS_test</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=2a940516-90d3-4216-b112-d66356d23df0</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId">3bc571c3-e1ca-4a33-add8-5bf7b20ddbd6</property>
+<property isimportant="false" name="hostResource_topologyResourceId"/>
+<property isimportant="false" name="hostResource_parentType"/>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[PC_TEST2]</extensions>
+<boundary height="100" width="100" x="802" y="314"/>
+<property name="inventoryName"/>
+</resource>
+</resources>
+<connectivity/>
+</body>
+</tbml>
