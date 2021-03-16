@@ -13,13 +13,37 @@
 <property isimportant="false" name="description"/>
 <property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=a313ec0f-222a-4ef3-8474-548e2a22c909</property>
 <property isimportant="false" name="reservationTime">IMMEDIATE</property>
-<property isimportant="false" name="ilo_iconId">c9bc9941-f947-4d32-9fc1-40ae94ad8ed9</property>
+<property isimportant="false" name="ilo_iconId">3c79b08a-adf9-4ae0-8737-8120a4aa6679</property>
 <property isimportant="false" name="hostResource_topologyResourceId"/>
 <property isimportant="false" name="hostResource_parentType"/>
-<property isimportant="false" name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
 <property isimportant="false" name="templateId"/>
 <property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<property isimportant="false" name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
 <extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[PC_TEST]</extensions>
+<extensions type="com.fnfr.itest.session" xs:namespace="com.fnfr.itest.session">
+<session name="new_session" provider="com.fnfr">
+<id>f9059323-029b-4351-8f31-5f65bb2761f2</id>
+<isInherited>false</isInherited>
+<isDisabled>false</isDisabled>
+<sessionProfile version="8.5.0">
+<language>Python</language>
+<baseApplication>com.fnfr.svt.applications.ssh</baseApplication>
+<baseProfile/>
+<standalone>true</standalone>
+<sessionProperties type="com.fnfr.svt.applications.ssh.documents.SSHProperties">
+<ipAddress inherit="false">[velocity('property','ipAddress')]</ipAddress>
+<port inherit="true"/>
+<user inherit="false">[velocity('property','username')]</user>
+<password inherit="false">d7VqHMc27Pk+julgJmPJeBnfrcqbypMQwXgj7YUWL6xIHNAaGBit5A==</password>
+<version inherit="true"/>
+<TerminalProperties>
+<prompts inherit="true" merge="false"/>
+</TerminalProperties>
+</sessionProperties>
+<agentRequirements inherit="true"/>
+</sessionProfile>
+</session>
+</extensions>
 <boundary height="100" width="100" x="692" y="265"/>
 </resource>
 </resources>
