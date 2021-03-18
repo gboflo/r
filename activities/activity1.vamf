@@ -7,7 +7,7 @@
 {
       "name": "UpgradeTopology_PC",
       "actionTitle":"Reserve",
-      "description": "Create an immediate reservation on the topology",
+      "description": "Create an immediate reservation on the topology - gimi edit",
       "reservationDuration":""
     }]
 }
