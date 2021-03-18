@@ -1,6 +1,6 @@
 {
    "name":"Custom Activity 1",
-   "shortDescription": "Test Activity on eduard-repo in master branch",
+   "shortDescription": "Test Activity on eduard-repo in master branch- gimi update",
    "icon":"customActivityManual.svg",
    "descriptionMarkdown":"UpgradeActivity.md",
    "topology": [
