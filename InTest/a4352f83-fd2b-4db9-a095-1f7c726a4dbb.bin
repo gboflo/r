@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><tbml xmlns="http://www.teslaalliance.org/trs/tbml/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd">
 <header>
-<name>Topo4</name>
+<name>Topo6</name>
 <description/>
 </header>
 <illustration>
@@ -8,17 +8,17 @@
 </illustration>
 <body>
 <resources>
-<resource guid="2a940516-90d3-4216-b112-d66356d23df0" id="ie99ebf5e-10a1-4db7-ab6f-1024b4ce8652" shared="true" type="device">
+<resource guid="2a940516-90d3-4216-b112-d66356d23df0" id="i83663c88-f6ee-4da9-bdb9-d09402320892" shared="true" type="device">
 <property isimportant="false" name="name">ABS_test</property>
-<property isimportant="false" name="description"/>
+<property isimportant="false" name="description">No icon</property>
 <property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=2a940516-90d3-4216-b112-d66356d23df0</property>
 <property isimportant="false" name="reservationTime">IMMEDIATE</property>
-<property isimportant="false" name="ilo_iconId">0f994664-0afc-4017-afe9-d8b3f9d47790</property>
+<property isimportant="false" name="ilo_iconId"/>
 <property isimportant="false" name="hostResource_topologyResourceId"/>
 <property isimportant="false" name="hostResource_parentType"/>
 <property isimportant="false" name="ilo_shape">RECTANGLE</property>
 <extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[PC_TEST2]</extensions>
-<boundary height="100" width="100" x="802" y="314"/>
+<boundary height="100" width="100" x="470" y="175"/>
 <property name="inventoryName"/>
 </resource>
 </resources>

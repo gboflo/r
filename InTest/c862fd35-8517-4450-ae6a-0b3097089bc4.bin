@@ -8,17 +8,17 @@
 </illustration>
 <body>
 <resources>
-<resource guid="2a940516-90d3-4216-b112-d66356d23df0" id="ic87beeee-115c-413e-b41e-88ad6edf593c" shared="true" type="device">
-<property isimportant="false" name="name">ABS_test</property>
+<resource guid="6e41ad3e-8e39-4c6b-b743-a0fe3644c50d" id="i69632553-1dc1-4493-af23-fbd03ce9ee83" shared="true" type="device">
+<property isimportant="false" name="name">abs_pc4</property>
 <property isimportant="false" name="description"/>
-<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=2a940516-90d3-4216-b112-d66356d23df0</property>
-<property isimportant="false" name="reservationTime">IMMEDIATE</property>
-<property isimportant="false" name="ilo_iconId">0f994664-0afc-4017-afe9-d8b3f9d47790</property>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=6e41ad3e-8e39-4c6b-b743-a0fe3644c50d</property>
+<property isimportant="false" name="reservationTime">DEFERRED</property>
+<property isimportant="false" name="ilo_iconId"/>
 <property isimportant="false" name="hostResource_topologyResourceId"/>
 <property isimportant="false" name="hostResource_parentType"/>
 <property isimportant="false" name="ilo_shape">RECTANGLE</property>
-<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[PC_TEST2]</extensions>
-<boundary height="100" width="100" x="329.1666666666667" y="-67.33333333333337"/>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[PC_TEST4]</extensions>
+<boundary height="100" width="100" x="290.49999999999994" y="-115.66666666666671"/>
 <property name="inventoryName"/>
 </resource>
 </resources>
