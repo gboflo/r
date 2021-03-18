@@ -1,0 +1,14 @@
+{
+   "name":"Custom Activity 2",
+   "shortDescription": "Test Activity on eduard-repo in master branch",
+   "icon":"customActivityManual.svg",
+   "descriptionMarkdown":"customActivityManual.md",
+   "topology": [{
+      "name": "Velocity Cluster",
+      "actionTitle":"Reserve",
+      "description": "Immediate reservation of two VMs Velocity VM and VDS VM",
+      "reservationDuration":"60",
+      "automation": [],
+      "interaction":[]
+    }]
+}
