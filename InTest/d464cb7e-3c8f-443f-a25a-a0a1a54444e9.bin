@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><tbml xmlns="http://www.teslaalliance.org/trs/tbml/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd">
+<header>
+<name>Topo3</name>
+<description/>
+</header>
+<illustration>
+<layer/>
+</illustration>
+<body>
+<resources>
+<resource guid="2d19e07a-c020-4e0a-aaf4-c07c05738db3" id="i0b80417f-dd14-495e-b8ec-0c1f475ea3b5" shared="true" type="device">
+<property isimportant="false" name="name">s2</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=2d19e07a-c020-4e0a-aaf4-c07c05738db3</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId"/>
+<property isimportant="false" name="hostResource_topologyResourceId"/>
+<property isimportant="false" name="hostResource_parentType"/>
+<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<property isimportant="false" name="templateId">7f009c18-f4c3-4430-b120-ccefa6be8770</property>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<boundary height="100" width="100" x="755.6666666666667" y="156.33333333333334"/>
+<resource guid="99a4f7d4-6fe5-4824-bea6-e59118dfdc11" id="i2123ac88-18ae-4270-9b69-bb77fcc0f4dc" type="port">
+<property isimportant="false" name="name">New Port</property>
+<property isimportant="false" name="description">New Port</property>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<property isimportant="false" name="orchestratedResourceRole">S2_ORCHESTRATED</property>
+<property name="ilo_iconId"/>
+</resource>
+</resource>
+</resources>
+<connectivity/>
+</body>
+</tbml>
