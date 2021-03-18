@@ -3,7 +3,7 @@ import sys
 import time
 #######3NEWWWWWWWWWWWWWWWWWWWWWWw
 if len(sys.argv) != 2:
-    print("Usage: %s <duration in seconds>" % sys.argv[0])
+    print("Usage: %s <duration in seconds>       gimi" % sys.argv[0])
     exit(1)
 duration = float(sys.argv[1])
 
