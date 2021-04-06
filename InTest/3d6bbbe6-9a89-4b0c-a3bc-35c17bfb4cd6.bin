@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><tbml xmlns="http://www.teslaalliance.org/trs/tbml/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd">
 <header>
 <name>Topo1</name>
-<description/>
+<description>Description only</description>
 </header>
 <illustration>
 <layer/>
@@ -13,7 +13,7 @@
 <property isimportant="false" name="description"/>
 <property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=a313ec0f-222a-4ef3-8474-548e2a22c909</property>
 <property isimportant="false" name="reservationTime">IMMEDIATE</property>
-<property isimportant="false" name="ilo_iconId">22e997a5-0703-49bb-a1f1-e439234ba4d6</property>
+<property isimportant="false" name="ilo_iconId">cd17a3c4-bce9-4d51-93c1-9f5de35cbd53</property>
 <property isimportant="false" name="hostResource_topologyResourceId"/>
 <property isimportant="false" name="hostResource_parentType"/>
 <property isimportant="false" name="templateId"/>
