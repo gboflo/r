@@ -31,7 +31,7 @@
 <property isimportant="false" name="description"/>
 <property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=9f61c07e-4da1-454e-8e6d-3882d3a80a8f</property>
 <property isimportant="false" name="reservationTime">IMMEDIATE</property>
-<property isimportant="false" name="ilo_iconId">aa69a348-6143-4127-9922-8fd33a66ea67</property>
+<property isimportant="false" name="ilo_iconId">a9122bd5-db56-4a6c-a0e6-e3fb5fd29bee</property>
 <property isimportant="false" name="hostResource_topologyResourceId">i7ec65d26-4303-4e06-88ee-b7fe97522d36</property>
 <property isimportant="false" name="hostResource_parentType">PARENT</property>
 <property isimportant="false" name="ilo_shape">RECTANGLE</property>
