@@ -1,0 +1,7 @@
+{
+   "name":"External Tools",
+   "shortDescription": "Tile containing links to external tools",
+   "icon":"/activity/demo.svg",
+   "descriptionMarkdown":"demo.md",
+   "topology": []
+}
